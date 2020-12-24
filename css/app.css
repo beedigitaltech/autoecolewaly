@@ -1,0 +1,388 @@
+html,body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.msg-success{
+    margin-bottom: -20px !important;
+}
+body {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.navbar{
+  width: 100%;
+  background-color: #d43c3c;
+}
+
+.nav-link{
+  width: 100%;
+  color: #ffffff !important;
+  transition: 0.5s ease-in all;
+  font-weight: 530;
+  font-size:  18px;
+
+}
+.nav-link:hover{
+  color: #000000!important ;
+  
+}
+
+.qui-sommes-nous-text p{
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+}div.cover{
+  width: 100%;
+  height: 100%;
+}
+div.cover img{
+  min-width: 100%;
+  min-height: 85vmin;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+i.fa-chevron-circle-right{
+  color: #d12021;
+  font-size: 2.5em;
+}
+div.card > h4{
+  color: #d12021;
+}
+div.card-body h4{
+  font-size: 20px;
+}
+.page-section{
+  padding: 30px 0;
+}
+.page-section .section-heading{
+  color: #d12021;
+}
+.horraire .section-heading{
+  color: #ffffff !important;
+}
+.page-section p{
+  font-size: 17px;
+}
+.bloc-contact{
+  background-color: #f5f5f6;
+  width: 100%;
+  height: 100%;
+}
+.contact{
+  min-width: 100%;
+  min-width: 100%;
+}
+.horraire{
+  background: url(../images/route.png) ;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.horraire-days p {
+  padding-top: 25px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+/*Footer*/
+
+footer{
+  background-color: #212429;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+
+.adresse>h6,.reseaux>h6{
+    
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+}
+.adresse>h6{
+    padding-left: 5px;
+}
+.adresse>p{
+    
+    font-size: 1em;
+    padding: 5px;
+    margin-left: 1px;
+}
+.footer_home,.footer_mail,.footer_phone,.footer_world{
+    font-size: 15px;
+}
+
+.reseaux{
+    padding-left: 20px;
+    float: right;
+}
+.fa_fa,.tw_tw,.in_in,.wh_wh,.gi_gi,.yo_yo{
+    font-size: 30px;
+    border: 1px solid color #ffffff;
+    margin-left: 5px;
+    color: #ffffff;
+}
+.fa_fa:hover,.in_in:hover,.wh_wh:hover{
+  color: #d12021;
+}
+.fa_fa{
+    margin-left: 20px;
+}
+
+footer p{
+  margin: 5px 5px 0 0;
+  padding: 0 10px;
+  font-size: 15px;
+  
+}
+.home,.mail,.number,.web{
+  color: #ffffff;
+}
+img.whatsapp-api{
+  float: left;
+  position: fixed;
+  right:15px;
+  bottom:2px;
+  z-index: 10;
+}
+/*Partie responsive au niveau des tablettes*/
+
+@media screen and (max-width: 992px) { 
+/* 
+  div.cover{
+    background: url(../images/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;  
+  } */
+  .carousel-item  a {
+    color: #ffffff;
+  }
+  .carousel-item  a:hover{
+    color: #B30000;
+  }
+  div.qui-sommes-nous{
+    text-align: center !important;
+  }
+  .page-section .section-heading{
+    font-size: 22px;
+  }
+  
+  footer{
+    padding-bottom: 16px;
+  }
+  
+  footer .adresse{
+    padding: 5px 5px 5px 0;
+    margin-left: 0;
+    font-size: 16px;
+  }
+  footer .reseaux{
+    padding: 5px 5px 5px 0;
+    margin-left: 0;
+  }
+  footer .reseaux a i{
+    font-size: 1.5em;
+  }
+  footer .cp{
+    font-size: 16px;
+    
+  }
+}
+
+/*Partie responsive au niveau des tablettes*/
+
+@media screen and (max-width: 768px) { 
+  div.cover img{
+    display: none;
+  }
+  div.navbar-collapse, .navbar-nav{
+    max-width: 100%;
+    align-items: flex-start !important;
+  }
+  .navbar-toggler span, .fa-bars{
+    color: #ffffff !important;
+  }
+  div.cover{
+    background: url(../images/coverMobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;  
+  }
+  div.qui-sommes-nous img{
+    width: 250px;
+    height: 250px;
+  }
+  .page-section .section-heading{
+    font-size: 22px;
+  }
+  .card-catégories{
+    text-align: justify !important;
+  }
+  .contact-h4{
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  footer{
+    padding-bottom: 16px;
+  }
+  .horraire-days p {
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+  footer .adresse{
+    text-align: justify !important;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  div.reseaux h6{
+    padding-left: 20px !important;
+  }
+  footer .reseaux{
+    text-align: justify !important;
+    margin: 15px 0 !important;
+  }
+  footer .reseaux a i{
+    font-size: 1.5em;
+  }
+  footer .cp{
+    font-size: 16px;
+    
+  }
+}
+
+/*Partie responsive au niveau des téléphone mobile*/
+
+@media screen and (max-width: 576px) {
+  
+  .navbar-toggler span, .fa-bars{
+    color: #ffffff !important;
+  }
+  div.navbar-collapse, .navbar-nav{
+    max-width: 100%;
+    align-items: flex-start !important;
+  }
+  div.cover img{
+    display: none;
+  }
+  div.cover{
+    background: url(../images/coverMobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 85vh;  
+  }
+  div.qui-sommes-nous{
+    text-align: center;
+  }
+  div.qui-sommes-nous img{
+    width: 200px !important;
+    height: 200px !important;
+  }
+  div.qui-sommes-nous-text h2{
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: 500;
+  }
+  div.qui-sommes-nous-text p{
+    font-size: 17px;
+  }
+  
+  .contact-h4{
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .entete .menu-p{
+    font-size: 14px;
+    text-align: center;
+  }
+  .entete .logo{
+    margin-top: 10px;
+  }
+  
+  .nav-link{
+    float: right !important;
+    padding: 5px 15px 0 0!important;
+    font-size: 14px !important;
+    text-align: center;
+  }
+  .jumbotron-section .section-heading{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .jumbotron-section p{
+    font-size: 14;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  .page-section, .section-heading{
+    font-size: 13x;
+  }
+  .card-catégories > p{
+    text-align: justify !important;
+  }
+  .card-catégories h5{
+    font-size: 17px;
+    text-align: center;
+  }
+  #categorie, #forfait{
+    margin-top: -40px;
+  }
+  .horraire-days p {
+    margin-right : 5px;
+    padding-top: 15px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    width:85px;
+    height:85px;
+    font-size: 12px;
+  }
+  .map {
+    width: 100%;
+    height: 300px;
+  }
+  footer{
+    padding-bottom: 10px;
+  }
+  
+  footer .adresse{
+    text-align: justify !important;
+    font-size: 14px;
+  }
+  footer .reseaux{
+    text-align: justify !important;
+  }
+  footer .reseaux a i{
+    font-size: 1.5em;
+  }
+  footer .cp{
+    font-size: 14px;
+    
+  }
+}
