@@ -17,12 +17,12 @@
 <body>
 
     <!-- Nav bar -->
-    <?php 
-        include_once('pages/nav.php')
+    <?php
+    include_once('pages/nav.php')
     ?>
     <!-- Banniere de la page -->
     <div class="cover">
-        <img src=" images/Sans titre-1.jpg " class="img-fluid" alt="bannier de la page">
+        <img src=" images/Sans titre-1-min.jpg" class="img-fluid" alt="bannier de la page">
     </div>
     <!-- Fin de la banniere -->
     <!-- Jumbotron -->

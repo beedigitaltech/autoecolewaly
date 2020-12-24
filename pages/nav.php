@@ -1,7 +1,7 @@
 <nav class=" navbar navbar-expand-md navbar-light  sticky-top" id="mainNav">
     <div class="container">
         <div class="container-xl">
-            <a class="navbar-brand " href="/"><img src="/images/logow1.png " width="60px">
+            <a class="navbar-brand " href="/"><img src="/images/autoecolelogo1.png" width="60px">
             </a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" style="border:none">
                 <i class="fas fa-bars pl-2"></i>
