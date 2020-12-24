@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row d-flex align-items-center mt-4">
                 <div class="col-xs-12 col-sm-12 col-md-4 qui-sommes-nous">
-                    <img src=" images/logo.png " class="mt-3 mb-3 img-fluid" alt="image jumbotron" style="width:300px; height:300px">
+                    <img src="/images/logo.png " class="mt-3 mb-3 img-fluid" alt="image jumbotron" style="width:300px; height:300px">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 qui-sommes-nous-text">
                     <div class="text-left">
