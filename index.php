@@ -273,17 +273,17 @@
             <div class="row text-center d-flex align-items-center">
                 <div class="col-md-4 my-2">
                     <div class="mx-auto" style="width: 18rem; height: 7rem;">
-                        <img src="/images/logo_IAM.jpg" class="img-fluid " width="100%" alt="IAM">
+                        <img src="images/logo_IAM.jpg" class="img-fluid " width="100%" alt="IAM">
                     </div>
                 </div>
                 <div class="col-md-4 my-2">
                     <div class="mx-auto" style="width: 18rem; height: 7rem;">
-                        <img src="/images/hecm.jpg" class="img-fluid " width="100%" alt="HECM">
+                        <img src="images/hecm.jpg" class="img-fluid " width="100%" alt="HECM">
                     </div>
                 </div>
                 <div class="col-md-4 my-2">
                     <div class="mx-auto" style="width: 18rem; height: 7rem;">
-                        <img src="/images/amdi.jpg" class="img-fluid " width="100%" alt="AMDI">
+                        <img src="images/amdi.jpg" class="img-fluid " width="100%" alt="AMDI">
                     </div>
                 </div>
             </div>
