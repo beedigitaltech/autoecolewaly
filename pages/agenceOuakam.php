@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/images/logo_auto_ecole.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/covoer-ngor.jpg" type="image/x-icon">
     <title>Agence Ouakam | Auto Ecole Waly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -20,7 +20,7 @@
     include_once('nav.php')
     ?>
     <div>
-        <img src="/images/cover-ouakam.jpg" width="100%" height="300px" alt="Cover Ouakam" class="img-fluid">
+        <img src="/images/covoer-ngor.jpg" width="100%" height="300px" alt="Cover Ouakam" class="img-fluid">
     </div>
     <div class="container mt-3">
         <div class="row">
@@ -31,15 +31,15 @@
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="width: 100%; height: 440px;">
                         <div class="carousel-item active">
-                            <img src="/images/IMG-20201217-WA0035.jpg" class="d-block w-100 h-100"  alt="...">
+                            <img src="/images/IMG-20201217-WA0035.jpg" class="d-block w-100 h-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0033.jpg" class="d-block w-100 h-100"  alt="...">
+                            <img src="/images/IMG-20201217-WA0033.jpg" class="d-block w-100 h-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0009.jpg" class="d-block w-100 h-100"  alt="...">
+                            <img src="/images/IMG-20201217-WA0009.jpg" class="d-block w-100 h-100" alt="...">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">

@@ -20,7 +20,7 @@
     include_once('nav.php')
     ?>
     <div>
-        <img src="/images/covoer-ngor.jpg" width="100%" height="100%" alt="Cover Ngor" class="img-fluid">
+        <img src="/images/cover-ouakam.jpg" width="100%" height="100%" alt="Cover Ngor" class="img-fluid">
     </div>
     <div class="container mt-3">
         <div class="row">
@@ -31,7 +31,7 @@
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="width: 100%; height: 440px;">
                         <div class="carousel-item active">
                             <img src="/images/IMG-20201217-WA0035.jpg" class="d-block w-100" height="400" alt="...">
                         </div>

@@ -101,7 +101,7 @@
                         <h4 class="my-0 mt-2 font-weight-normal text-center">Permis Normal</h4>
 
                         <div class="card-body text-center">
-                            <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis normal. <br> Pour plus d'information <br> appellez au 77 579 41 85</p>
+                            <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis normal. <br> Pour plus d'information <br> appellez au 77 579 41 58</p>
                             <hr>
                             <div class="text-center">
                                 <i class="fas fa-chevron-circle-right"></i>
@@ -117,7 +117,7 @@
                         <h4 class="my-0 mt-2 font-weight-normal text-center">Permis Etudiant</h4>
 
                         <div class="card-body text-center">
-                            <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis étudiant. <br> Pour plus d'information <br> appellez au 77 579 41 85</p>
+                            <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis étudiant. <br> Pour plus d'information <br> appellez au 77 579 41 58</p>
                             <hr>
                             <div class="text-center">
                                 <i class="fas fa-chevron-circle-right"></i>
@@ -271,19 +271,24 @@
                 <h2 class="section-heading text-uppercase pt-5 mb-5">Nos Partenaires</h2>
             </div>
             <div class="row text-center d-flex align-items-center">
-                <div class="col-md-4 my-2">
-                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
-                        <img src="images/logo_IAM.jpg" class="img-fluid " width="100%" alt="IAM">
+                <div class="col-md-3 my-2">
+                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
+                        <img src="images/logo_IAM.jpg" class="img-fluid " style="height:80px" width="100%" alt="IAM">
                     </div>
                 </div>
-                <div class="col-md-4 my-2">
-                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
+                <div class="col-md-3 my-2">
+                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
                         <img src="images/hecm.jpg" class="img-fluid " width="100%" alt="HECM">
                     </div>
                 </div>
-                <div class="col-md-4 my-2">
-                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
+                <div class="col-md-3 my-2">
+                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
                         <img src="images/amdi.jpg" class="img-fluid " width="100%" alt="AMDI">
+                    </div>
+                </div>
+                <div class="col-md-3 my-2">
+                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
+                        <img src="images/dolima-logo.png" class="img-fluid " width="100%" style="height:100px" alt="Doolima">
                     </div>
                 </div>
             </div>
