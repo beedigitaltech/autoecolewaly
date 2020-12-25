@@ -48,10 +48,48 @@
     </section>
     <!-- Fin Jumbotron -->
     <!-- Section Forfaits -->
-    <section class="page-section " id="forfait">
+    <section class="page-section " id="permis">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase mt-5 mb-4">Nos Permis</h2>
+            <div class="">
+                <h2 class=" text-center section-heading text-uppercase mt-5 mb-4">Nos Permis</h2>
+                <div class="container mt-5 mb-5 text-center">
+                    <h3 class="mb-2 text-muted permis-h3">Pourquoi choisir Auto Ecole Waly</h3>
+                    <p class="text-muted permis-p">
+                        L'auto école waly vous propose des cours de code illimité, de conduite illimité et des cours de créneau disponible sur place Jusqu’à l’obtention du permis
+                    </p>
+
+                    <div class="col-md-10 mx-auto">
+                        <div class="row ">
+                            <div class="col-md-4 mt-5 mb-5">
+                                <i class=" fas fa-frown">
+                                    <hr style="color: #000000;">
+                                </i>
+                                <h1 class="card-title pricing-card-title categorie-title ">Satisfaction</h1>
+                                <p>
+                                    Des élèves confiants et motivés, qui sont satisfaits de leurs enseignements
+                                </p>
+                            </div>
+                            <div class="col-md-4 mt-5 mb-5">
+                                <i class=" fas fa-medal">
+                                    <hr style="color: #000000;">
+                                </i>
+                                <h1 class="card-title pricing-card-title categorie-title ">Qualité </h1>
+                                <p>
+                                    Des formateurs professionnels et compétents pour une réussite garantie
+                                </p>
+                            </div>
+                            <div class="col-md-4 mt-5 mb-5">
+                                <i class="far fa-check-circle">
+                                    <hr style="color: #000000;">
+                                </i>
+                                <h1 class="card-title pricing-card-title categorie-title ">Taux de réussite</h1>
+                                <p>
+                                    Une auto-école organisée, pour obtenir votre permis du premier coup
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row mt-5">
                 <div class="row col-md-8 mx-3 card-deck mb-3 text-justify mx-auto">
@@ -63,7 +101,6 @@
                         <h4 class="my-0 mt-2 font-weight-normal text-center">Permis Normal</h4>
 
                         <div class="card-body text-center">
-                            <h4 class="mt-2 mb-2 card-title text-muted pricing-card-title ">A partir de <br> 150.000 F</h4>
                             <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis normal. <br> Pour plus d'information <br> appellez au 77 579 41 85</p>
                             <hr>
                             <div class="text-center">
@@ -80,7 +117,6 @@
                         <h4 class="my-0 mt-2 font-weight-normal text-center">Permis Etudiant</h4>
 
                         <div class="card-body text-center">
-                            <h4 class="mt-2 mb-2 card-title text-muted pricing-card-title ">A partir de <br> 120.000 F</h4>
                             <p class="mt-3 text-muted">Retrouvez toutes nos formules concernant le permis étudiant. <br> Pour plus d'information <br> appellez au 77 579 41 85</p>
                             <hr>
                             <div class="text-center">
@@ -178,7 +214,7 @@
                             <p class="text-muted mr-3">
 
                                 Toute personne résidant sur le territoire sénégalais, titulaire ou pas d'un permis de conduire pour véhicules légers
-                                et remplissant les conditions d'âge (25 ans et plus).
+                                et remplissant les conditions d'âge (22 ans et plus).
                             </p>
                         </div>
                     </div>
@@ -228,6 +264,31 @@
     </section>
     <!-- Google Map-->
     <?php include_once('pages/localisation.php')  ?>
+    <!-- Nos partenaires -->
+    <section class="page-section partenaire mb-5 ">
+        <div class="container text-center">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase pt-5 mb-5">Nos Partenaires</h2>
+            </div>
+            <div class="row text-center d-flex align-items-center">
+                <div class="col-md-4 my-2">
+                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
+                        <img src="/images/logo_IAM.jpg" class="img-fluid " width="100%" alt="IAM">
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
+                        <img src="/images/hecm.jpg" class="img-fluid " width="100%" alt="HECM">
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="mx-auto" style="width: 18rem; height: 7rem;">
+                        <img src="/images/amdi.jpg" class="img-fluid " width="100%" alt="AMDI">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <?php include_once('pages/footer.php')  ?>
     <!-- Bootstrap core JS-->
