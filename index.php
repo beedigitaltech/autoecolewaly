@@ -22,7 +22,7 @@
     ?>
     <!-- Banniere de la page -->
     <div class="cover">
-        <img src=" images/Sans titre-1-min.jpg" class="img-fluid" alt="bannier de la page">
+        <img src=" images/cover.jpeg" class="img-fluid" alt="bannier de la page">
     </div>
     <!-- Fin de la banniere -->
     <!-- Jumbotron -->
@@ -59,31 +59,31 @@
                     </p>
 
                     <div class="col-md-10 mx-auto">
-                        <div class="row ">
+                        <div class="row reveal">
                             <div class="col-md-4 mt-5 mb-5">
-                                <i class=" fas fa-frown">
+                                <i class=" fas fa-frown reveal-1">
                                     <hr style="color: #000000;">
                                 </i>
-                                <h1 class="card-title pricing-card-title categorie-title ">Satisfaction</h1>
-                                <p>
+                                <h1 class="card-title pricing-card-title categorie-title reveal-2 ">Satisfaction</h1>
+                                <p class="reveal-3">
                                     Des élèves confiants et motivés, qui sont satisfaits de leurs enseignements
                                 </p>
                             </div>
                             <div class="col-md-4 mt-5 mb-5">
-                                <i class=" fas fa-medal">
+                                <i class=" fas fa-medal reveal-1">
                                     <hr style="color: #000000;">
                                 </i>
-                                <h1 class="card-title pricing-card-title categorie-title ">Qualité </h1>
-                                <p>
+                                <h1 class="card-title pricing-card-title categorie-title reveal-2">Qualité </h1>
+                                <p class="reveal-3">
                                     Des formateurs professionnels et compétents pour une réussite garantie
                                 </p>
                             </div>
                             <div class="col-md-4 mt-5 mb-5">
-                                <i class="far fa-check-circle">
+                                <i class="far fa-check-circle reveal-1">
                                     <hr style="color: #000000;">
                                 </i>
-                                <h1 class="card-title pricing-card-title categorie-title ">Taux de réussite</h1>
-                                <p>
+                                <h1 class="card-title pricing-card-title categorie-title reveal-2">Taux de réussite</h1>
+                                <p class="reveal-3">
                                     Une auto-école organisée, pour obtenir votre permis du premier coup
                                 </p>
                             </div>
@@ -91,9 +91,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 reveal">
                 <div class="row col-md-8 mx-3 card-deck mb-3 text-justify mx-auto">
-                    <div class="col-md-6 card  mb-4 shadow" style="background-color: #dadada;">
+                    <div class="col-md-6 card reveal-1 mb-4 shadow" style="background-color: #dadada;">
                         <div class="text-center mt-3 mb-3">
                             <img src=" images/voiture-picto.png " width="100px" alt="">
                             <hr>
@@ -109,7 +109,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6 card  mb-4 shadow" style="background-color: #dadada;">
+                    <div class="col-md-6 card reveal-1 mb-4 shadow" style="background-color: #dadada;">
                         <div class="text-center mt-3 mb-3">
                             <img src=" images/etudiant.png " width="70px" alt="">
                             <hr>
@@ -138,11 +138,11 @@
                 <h2 class="section-heading text-uppercase mt-5 mb-5">Nos Catégories</h2>
             </div>
             <div class="card mb-3" style="max-width: 100%;">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-4">
+                <div class="row d-flex align-items-center reveal">
+                    <div class="col-md-4 reveal-1">
                         <img src=" images/moto.jpg " class="card-img img-fluid" alt="...">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 reveal-3">
                         <div class="card-body card-catégories">
                             <h5 class="card-title">PERMIS MOTO ET BICYCLETTE</h5>
                             <p class="text-muted">
@@ -164,11 +164,11 @@
             </div>
 
             <div class="card mb-3" style="width: 100%;">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-4">
+                <div class="row d-flex align-items-center reveal">
+                    <div class="col-md-4 reveal-1">
                         <img src="images/auto.png" class="card-img img-fluid" alt="...">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 reveal-2">
                         <div class="card-body card-catégories">
                             <h5 class="card-title">PERMIS POIDS LEGER</h5>
                             <p class="text-muted">
@@ -185,11 +185,11 @@
                 </div>
             </div>
             <div class="card mb-3" style="max-width: 100%;">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-4">
+                <div class="row d-flex align-items-center reveal">
+                    <div class="col-md-4 reveal-1">
                         <img src="images/lourd1.png " class="card-img img-fluid" alt="...">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 reveal-2">
                         <div class="card-body card-catégories">
                             <h5 class="card-title">PERMIS POIDS LOURD</h5>
                             <p class="text-muted mr-3">
@@ -215,6 +215,45 @@
 
                                 Toute personne résidant sur le territoire sénégalais, titulaire ou pas d'un permis de conduire pour véhicules légers
                                 et remplissant les conditions d'âge (22 ans et plus).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row d-flex align-items-center reveal">
+                    <div class="col-md-4 reveal-1">
+                        <img src="images/Bus.svg" class="card-img img-fluid" alt="...">
+                    </div>
+                    <div class="col-md-8 reveal-2">
+                        <div class="card-body card-catégories">
+                            <h5 class="card-title">PERMIS TRANSPORT EN COMMUN</h5>
+                            <p class="text-muted mr-3">
+                                Il existe plusieurs types de permis du groupe D pour les véhicules dédiés au transport routier de personnes :
+                                <ul class="mr-3 ">
+                                    <li class=" text-muted">
+                                        Le permis D1 : il permet de conduire un véhicule affecté au transport en commun de personnes comportant 16 passagers au maximum (conducteur non compris). La longueur du véhicule est limitée à huit mètres. On peut y atteler une remorque dont le PTAC ne dépasse pas 750 kg.
+
+                                    </li>
+                                    <li class=" text-muted">
+                                        Le permis D1E : il permet la conduite d’un véhicule de la catégorie D1 attelé d’une remorque dont le PTAC est supérieur à 750 kg mais n’excède pas 3.5 tonnes.
+
+                                    </li>
+                                    <li class="text-muted">
+                                        Le permis D : il permet de conduire un véhicule affecté au transport en commun de personnes comportant plus de 8 passagers (conducteur non compris). On peut y atteler une remorque dont le PTAC ne dépasse pas 750 kg. Il est possible de conduire un bus articulé avec le permis D.
+                                    </li>
+                                    <li class="text-muted">
+                                        Le permis DE : il permet la conduite d’un véhicule de la catégorie D attelé d’une remorque dont le PTAC est supérieur à 750 kg mais n’excède pas 3.5 tonnes.
+                                    </li>
+
+                                </ul>
+
+                            </p>
+                            <small class="font-weight-bold text-muted ">Qui peut passer le permis de conduire pour véhicules lourds ?</small>
+                            <p class="text-muted mr-3">
+
+                                Toute personne résidant sur le territoire sénégalais, titulaire ou pas d'un permis de conduire pour véhicules légers
+                                et remplissant les conditions d'âge (25 ans et plus).
                             </p>
                         </div>
                     </div>
@@ -266,29 +305,29 @@
     <?php include_once('pages/localisation.php')  ?>
     <!-- Nos partenaires -->
     <section class="page-section partenaire mb-5 ">
-        <div class="container text-center">
+        <div class="container text-center ">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase pt-5 mb-5">Nos Partenaires</h2>
             </div>
-            <div class="row text-center d-flex align-items-center">
+            <div class="row text-center d-flex align-items-center reveal">
                 <div class="col-md-3 my-2">
-                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
-                        <img src="images/logo_IAM.jpg" class="img-fluid " style="height:80px" width="100%" alt="IAM">
+                    <div class="mx-auto reveal-1" style="width: 14rem; height: 7rem;">
+                        <img src="images/logo_IAM.jpg" class="img-fluid img-partenaire" style="height:80px" width="100%" alt="IAM">
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
-                        <img src="images/hecm.jpg" class="img-fluid " width="100%" alt="HECM">
+                    <div class="mx-auto reveal-2" style="width: 14rem; height: 7rem;">
+                        <img src="images/hecm.jpg" class="img-fluid img-partenaire" width="100%" alt="HECM">
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
-                        <img src="images/amdi.jpg" class="img-fluid " width="100%" alt="AMDI">
+                    <div class="mx-auto reveal-3" style="width: 14rem; height: 7rem;">
+                        <img src="images/amdi.jpg" class="img-fluid img-partenaire" width="100%" alt="AMDI">
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="mx-auto" style="width: 14rem; height: 7rem;">
-                        <img src="images/dolima-logo.png" class="img-fluid " width="100%" style="height:100px" alt="Doolima">
+                    <div class="mx-auto reveal-4" style="width: 14rem; height: 7rem;">
+                        <img src="images/dolima-logo.png" class="img-fluid img-partenaire" width="100%" style="height:100px" alt="Doolima">
                     </div>
                 </div>
             </div>

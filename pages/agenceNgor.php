@@ -20,7 +20,7 @@
     include_once('nav.php')
     ?>
     <div>
-        <img src="/images/cover-ouakam.jpg" width="100%" height="100%" alt="Cover Ngor" class="img-fluid">
+        <img src="/images/coverNgor.jpeg" width="100%" height="100%" alt="Cover Ngor" class="img-fluid">
     </div>
     <div class="container mt-3">
         <div class="row">
@@ -32,15 +32,16 @@
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" style="width: 100%; height: 440px;">
-                        <div class="carousel-item active">
-                            <img src="/images/IMG-20201217-WA0035.jpg" class="d-block w-100" height="400" alt="...">
+                        <div class="carousel-item active " >
+                            <img src="/images/waly1.jpeg" class="d-block w-100" height="400" alt="...">
                         </div>
-                        <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0033.jpg" class="d-block w-100" height="400" alt="...">
+                        <div class="carousel-item" >
+                            <img src="/images/waly3.jpg" class="d-block w-100" height="400" alt="...">
                         </div>
-                        <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0009.jpg" class="d-block w-100" height="400" alt="...">
+                        <div class="carousel-item" >
+                            <img src="/images/waly.jpg" class="d-block w-100" height="400" alt="...">
                         </div>
+                        
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

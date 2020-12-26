@@ -32,14 +32,14 @@
                         <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" style="width: 100%; height: 440px;">
-                        <div class="carousel-item active">
-                            <img src="/images/IMG-20201217-WA0035.jpg" class="d-block w-100 h-100" alt="...">
+                        <div class="carousel-item active ">
+                            <img src="/images/waly1.jpeg" class="d-block w-100" height="400" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0033.jpg" class="d-block w-100 h-100" alt="...">
+                            <img src="/images/waly4.jpg" class="d-block w-100" height="400" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/IMG-20201217-WA0009.jpg" class="d-block w-100 h-100" alt="...">
+                            <img src="/images/waly2.jpg" class="d-block w-100" height="400" alt="...">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">

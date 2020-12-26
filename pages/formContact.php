@@ -7,7 +7,7 @@
             <div class="row align-items-center reveal">
                 <div class="col-md-6">
                     <div class="reveal-1">
-                        <img src="/images/auto-ecole.jpg" class="img-fluid" alt="image Bee digital" width="100%" height="800px">
+                        <img src="/images/imgContact.jpeg" class="img-fluid imgContact" alt="image Bee digital" style="width:100%; height:500px">
                     </div>
                 </div>
                 <div class="col-md-6 form-contact reveal">

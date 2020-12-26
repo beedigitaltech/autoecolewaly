@@ -4,8 +4,8 @@
              <div class="col-md-10 mt-3 adresse">
                  <h6 class="pl-2">Nous contacter</h6>
                  <p><i class="fas fa-home footer_home"></i> Route Ngor Village - Ouakam, Dakar</p>
-                 <p><i class="fas fa-envelope footer_mail"></i> autoecolewaly@gmail.com</p>
-                 <p><i class="fas fa-phone-alt footer_phone"></i> 77 - 579 - 41 - 58 </p>
+                 <p><i class="fas fa-envelope footer_mail"></i> waly@autoecolewaly.com</p>
+                 <p><i class="fas fa-phone-alt footer_phone"></i> 77 579 41 58 </p>
 
              </div>
              <div class="col-md-2 mt-3 reseaux">
@@ -20,7 +20,7 @@
          <div class="">
              <p class="text-center cp ">AUTO ECOLE WALY | 2011 / 2020 © Tous droits réservés</p>
 
-             <p class="text-center cp ">Site web Réalisé par <a href="https://beedigital.herokuapp.com/" target="_blank" title="Site officiel de Bee Digital">Bee Digital</a>
+             <p class="text-center cp ">Site web Réalisé par <a href="https://beedigitaltech.com/" target="_blank" title="Site officiel de Bee Digital">Bee Digital</a>
              </p>
          </div>
      </div>
